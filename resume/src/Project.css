@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
+
+.project {
+  /* width: 100%; */
+  background-color: transparent;
+  padding: 10px;
+  margin: 25px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  box-shadow: 0 0 10px rgb(90, 89, 89);
+  transition: 500ms transform;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  padding: 5px 0;
+}
+
+.project_rev {
+  /* width: 100%; */
+  background-color: transparent;
+  padding: 10px;
+  margin: 10px 30px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  box-shadow: 0 0 10px rgb(90, 89, 89);
+  transition: 500ms transform;
+  align-items: center;
+}
+
+.project:hover,
+.project_rev:hover {
+  transform: scale(1.01);
+}
+
+.project_column {
+  /* width: 100%; */
+  /* background-color: teal; */
+  padding: 10px;
+  margin: 25px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  /* box-shadow: 0 0 3px rgb(68, 68, 68); */
+}
+
+.image_container {
+  /* background-color: tomato; */
+  width: 100%;
+
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  /* padding-right: 100px; */
+  /* flex: 0.7; */
+}
+
+.info {
+  /* background-color: violet; */
+  width: 100%;
+  padding: 10px 50px;
+}
+.info h1 {
+  font-size: 44px;
+
+  padding-bottom: 10px;
+  font-weight: 400;
+}
+.info p {
+  font-size: 3vh;
+}
+
+@media screen and (max-width: 1000px) {
+  .info h1 {
+    font-size: 37px;
+    padding-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .info p {
+    font-size: 15px;
+  }
+}
+
+.image_project {
+  width: 80%;
+  object-fit: contain;
+  transition: transform 500ms;
+}
+.image_project:hover {
+  transform: scale(1.02);
+}
+.button_visit {
+  position: absolute;
+  margin-top: 14%;
+  width: 15%;
+  height: 40px;
+  background-color: transparent;
+  color: rgb(204, 204, 204);
+  border: 2px solid rgb(199, 106, 199);
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(160, 4, 84));
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .button_visit {
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .button_visit {
+    margin: 33% 0;
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .button_visit {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .info h1 {
+    font-size: 34px;
+  }
+}

@@ -1,0 +1,13 @@
+.headerGrad {
+  /* position: absolute; */
+  margin-top: -8.6em;
+  height: 8.6em;
+  /* margin-top: 1em; */
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(124, 4, 76, 1),
+    rgb(53, 1, 47)
+  );
+  /* background-color: yellowgreen; */
+}

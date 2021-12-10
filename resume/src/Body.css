@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@900&family=Comfortaa:wght@500&display=swap");
+.body {
+  /* background-color: royalblue; */
+
+  margin-bottom: -25px;
+  padding-bottom: 25px;
+  color: black;
+  background-color: rgb(255, 166, 0);
+}
+
+.container {
+  margin: 20px auto;
+}
+
+#project {
+  text-align: left;
+  padding: 70px 0;
+  font-size: 50px;
+  margin-left: 6%;
+  letter-spacing: 0.2ch;
+}
+
+@media screen and (max-width: 800px) {
+  #project {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #project {
+    font-size: 32px;
+  }
+}

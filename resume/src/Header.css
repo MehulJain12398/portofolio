@@ -1,0 +1,101 @@
+.Header {
+  display: flex;
+  /* background-image: url("https://e7.pngegg.com/pngimages/564/335/png-clipart-blue-and-white-floral-art-blue-line-wave-line-blue-computer-wallpaper.png");
+  object-fit: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; */
+  /* background-image: linear-gradient(to bottom, white, rgb(175, 175, 175)); */
+  color: black;
+  height: 100vh;
+  min-height: 500px;
+  width: 100%;
+}
+
+.banner_down {
+  height: 100px;
+  /* margin-top: 1em; */
+  /* background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #111
+  ); */
+  background-color: turquoise;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+
+  /* justify-content: space-around; */
+  width: 100%;
+  margin-left: 23%;
+
+  /* padding: 0 23%; */
+}
+
+.heading {
+  /* background-color: yellow; */
+  /* position: relative;
+  margin-bottom: 100px; */
+  /* margin: 30% 0; */
+
+  /* padding-left: 100px; */
+}
+/* .heading > h1 {
+  font-size: 30px;
+  font-weight: 300;
+} */
+.title {
+  font-size: 44px;
+  font-weight: 400;
+}
+
+/* .heading-image { */
+/* background-color: tomato; */
+/* padding-left: 200px; */
+/* margin-top: 30%; */
+/* } */
+
+.image {
+  width: 200px;
+  margin-left: 10%;
+}
+
+@media screen and (max-width: 950px) {
+  .title {
+    font-size: 40px;
+  }
+
+  .image {
+    width: 190px;
+    margin-left: 8%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .title {
+    font-size: 30px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .image {
+    width: 150px;
+    margin-right: 10%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .title {
+    font-size: 17px;
+  }
+
+  .image {
+    width: 120px;
+  }
+  .header-content {
+    /* margin-right: 2%; */
+    margin-left: 18%;
+  }
+}
